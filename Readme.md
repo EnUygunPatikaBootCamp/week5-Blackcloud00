@@ -4,9 +4,9 @@
 - Soru 1: PHP PDO nedir? Hangi amaçla kullanılır?
 ### PDO, desteklediği veritabanları için ortak metot ve özellikleri barındıran bir OOP sınıfıdır. Veritabanı ile ilgili Php'de işlem yapabilmemizi sağlar.
 örnek olarak; 
-
   
-`try {
+`
+try {
     $baglanti = new PDO("mysql:host=localhost;dbname=kisi", "root", "");
     $baglanti->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
@@ -22,7 +22,8 @@
     die($e->getMessage());
 }
 
-$baglanti = null;`
+$baglanti = null;
+`
 
   
 
